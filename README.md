@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Dive in to the Crypto world with all info about cryptocurrencies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Have you ever wondered and you didn't have all crypto infos by your side? With this app you are able to explore `stats`, `current market prices`, search `news` and look
+for most popular platforms. Thanks to the `rapid-api`, all data are real time using this API with `redux-toolkit API` management. Mobile-friendly
 
-In the project directory, you can run:
+## Home
 
-### `yarn start`
+Global stats of all cryptocurrensies plus TOP 10 displayed cryptocurrencies with real-time data and news.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Cryptocurrencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+View of TOP 100 cryptocurrencies with searchable field.
 
-### `yarn test`
+## Cryptocurrencies (details)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Showing a graph for particular cryptocurrency, its current market price with statistics and general info & link fetched from `rapid-api`
 
-### `yarn build`
+## Platforms
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All available platforms where you can trade, buy & sell cryptocurrencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## News
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Latest bing news about cryptocurrencies with abbility to filter them by specifying the cryptocurrenty in the input field
 
-### `yarn eject`
+# NOTE
+`You must use your own rapid-API and replace.env.sample with real data.`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Available scripts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> In the project directory, you can run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Runs the app in the development mode.\
 
-## Learn More
+### `npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Launches the test runner in the interactive watch mode.\
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm build`
+
+- Builds the app for production to the `build` folder.\
+  It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### `npm eject`
+
+- This command will remove the single build dependency from your project.
