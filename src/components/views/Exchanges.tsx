@@ -57,7 +57,7 @@ const Exchanges = () => {
         <Col span={6}>Zmeny</Col>
       </RowHeader>
       <Row>
-        {exchangesList.map((exchange) => (
+        {exchangesList.map((exchange, index) => (
           <Col span={24} key={exchange.id}>
             <Collapse>
               <Panel
@@ -67,10 +67,9 @@ const Exchanges = () => {
                   <RowList key={exchange.id}>
                     <ColPlatform span={6}>
                       <Text>
-                        <Strong>{exchange.rank}.</Strong>
+                        <Strong>{index + 1}.</Strong>
                       </Text>
                       <Avatar
-                        className="exchange-image"
                         src={exchange.iconUrl}
                       />
                       <Text>

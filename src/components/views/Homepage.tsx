@@ -69,7 +69,7 @@ export const Homepage = () => {
         <Col span={12}>
           <Statistic
             title="24h Nárast"
-            value={millify(globalStats.total24hVolume)}
+            value={"..."}
           ></Statistic>
         </Col>
       </Row>

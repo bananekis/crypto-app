@@ -61,7 +61,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }: Props) => {
         </Title>
         <ColInfo>
           <Title level={5} style={{ marginRight: "1em" }}>
-            {coinHistory?.data?.change}%
+            {coinHistory.data.change}%
           </Title>
           <Title level={5}>
             Aktuálna {coinName} Cena: ${currentPrice}
