@@ -7,7 +7,7 @@ export const color = {
   grey: "#00000091",
 };
 
-export const baseUrl = process.env.REACT_APP_CRYPTOS_BASE_URL;
+export const baseUrl = process.env.REACT_APP_CRYPTOS_URL;
 export const baseUrlNews = process.env.REACT_APP_NEWS_URL;
 
 export const cryptoApiHeaders = {

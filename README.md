@@ -25,6 +25,8 @@ All available platforms where you can trade, buy & sell cryptocurrencies
 
 Latest bing news about cryptocurrencies with abbility to filter them by specifying the cryptocurrenty in the input field
 
++ Used APIs: `Coinranking` & `Bing News Search` fetched RAPID API
+
 # NOTE
 `You must use your own rapid-API and replace.env.sample with real data.`
 

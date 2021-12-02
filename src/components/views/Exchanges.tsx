@@ -30,6 +30,7 @@ const RowHeader = styled(Row)`
 `;
 
 const RowList = styled(Row)`
+  flex: 1;
   @media (max-width: 430px) {
     align-items: center;
     text-align: center;
