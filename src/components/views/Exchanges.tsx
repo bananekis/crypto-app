@@ -70,9 +70,7 @@ const Exchanges = () => {
                       <Text>
                         <Strong>{index + 1}.</Strong>
                       </Text>
-                      <Avatar
-                        src={exchange.iconUrl}
-                      />
+                      <Avatar src={exchange.iconUrl} />
                       <Text>
                         <Strong>{exchange.name}</Strong>
                       </Text>

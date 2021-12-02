@@ -67,10 +67,7 @@ export const Homepage = () => {
           ></Statistic>
         </Col>
         <Col span={12}>
-          <Statistic
-            title="24h Nárast"
-            value={"..."}
-          ></Statistic>
+          <Statistic title="24h Nárast" value={"..."}></Statistic>
         </Col>
       </Row>
       <DivTop10>
